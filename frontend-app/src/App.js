@@ -15,7 +15,7 @@ function App() {
     try {
       const parsedInput = JSON.parse(jsonInput);
       const payload = { data: parsedInput.data };
-      const { data } = await axios.post('http://127.0.0.1:5000/bfhl', payload);
+      const { data } = await axios.post('https://backend-linked.onrender.com/bfhl', payload);
       setResponse(data);
     } catch (error) {
       alert('Invalid JSON or API request failed');
