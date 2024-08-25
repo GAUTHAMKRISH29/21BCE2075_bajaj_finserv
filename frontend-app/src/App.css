@@ -1,0 +1,68 @@
+/* Set the background color of the app */
+body {
+  background-color: #87CEEB; /* Sky Blue */
+  color: #333; /* Dark text for contrast */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container for the app */
+.App {
+  background-color: white; /* White background for the content area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  max-width: 100%;
+}
+
+/* Styling the textarea */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #87CEEB;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styling the submit button */
+button {
+  background-color: #87CEEB; /* Sky Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #00BFFF; /* Deeper sky blue on hover */
+}
+
+/* Styling the dropdown */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #87CEEB;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Response styling */
+p {
+  background-color: #F0F8FF; /* Light sky blue for response background */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
